@@ -4,10 +4,10 @@ import Pokemon from "./Pokemon";
 
 function PokeList(props) {
   return (
-    <ul>
+    <ul className="poke__list">
       {props.data.map((pokemon) => {
         return (
-          <li key={pokemon.id}>
+          <li className="poke__list--card" key={pokemon.id}>
             <Pokemon
               id={pokemon.id}
               name={pokemon.name}

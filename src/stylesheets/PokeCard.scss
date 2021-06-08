@@ -1,0 +1,30 @@
+.card {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(221, 230, 241);
+  border: 2px solid grey;
+  border-radius: 15px;
+  &__title {
+    text-transform: capitalize;
+    text-align: center;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    padding: 5px;
+  }
+  &__list {
+    padding: 5px;
+  }
+  &__list--type {
+    display: inline;
+    background-color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 2px;
+  }
+}

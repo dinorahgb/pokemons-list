@@ -1,0 +1,11 @@
+.poke__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 60%;
+  justify-content: center;
+
+  &--card {
+    margin: 10px;
+  }
+}
