@@ -2,6 +2,8 @@
 
 Aplicación web desarrollada con React, que contiene un listado de Pokemon con su correspondiente nombre, imágen y tipo.
 
+# Objetivo
+
 La finalidad de este proyecto era aplicar los conocimientos adquiridos sobre React, impartidos en el módulo 3, dictado por Adalab.
 
 Puedes ver el resultado final accediendo directamente a este enlace:
